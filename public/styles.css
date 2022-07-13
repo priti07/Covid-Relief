@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1f2833;
+  font-family: "Poppins", sans-serif !important;
+}
+/* html {
+  font-family: "Montserrat", sans-serif;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.navlinks {
+  display: flex;
+  font-size: large;
+  font-weight: 400;
+}
+
+.navlink,
+.nav-brand {
+  display: flex;
+  margin: 1rem 2rem;
+  color: white !important;
+}
+
+.navlinks .navlink,
+.navlink a {
+  color: white !important;
+}
+
+.nav-logo {
+  display: flex;
+  color: #66fcf1 !important;
+}
+
+.nav-logo:hover {
+  color: #45a29e !important;
+}
+
+.logo {
+  font-size: 28px;
+  color: #66fcf1;
+  margin: 5px 1rem;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.hero-content a {
+  color: #0b0c10;
+  font-size: 20px;
+  background-color: #66fcf1 !important;
+  border-radius: 10px;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  float: left;
+}
+
+.hero-content a:hover {
+  background-color: #45a29e !important;
+  color: #1f2833;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 10px;
+  /* font-family: Georgia; */
+  color: #0b0c10;
+  font-size: 40px;
+  background-color: #66fcf1 !important;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #45a29e !important;
+  color: #1f2833;
+  text-decoration: none;
+}
+
+footer {
+  /* position: absolute; */
+  text-align: center;
+  /* bottom: 0; */
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.datatable {
+  padding: 5rem;
+}
+
+.table {
+  border-radius: 5px !important;
+}
+
+.table-head * {
+  background-color: #66fcf1 !important;
+  color: #1f2833 !important;
+}
+
+
+/* .person{
+  height: 320px
+} */
+/* 
+.person .box1 {
+  display: inline-block;
+  width: 60%;
+  margin-right: 80px;
+} */
+/* 
+.person .name {
+  font-size: 50px;
+  display: block;
+  margin: 30px;
+  font-family: "Architects Daughter", cursive;
+}
+
+.person p {
+  font-size: 20px;
+  display: block;
+  margin: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.person img {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+} */
+
+.about {
+  text-align: center;
+}
+
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.aboutus .block {
+  width: 50%;
+  padding: 2rem;
+}
+
+.aboutus h1 {
+  margin: 20px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.about .title {
+  margin-left: auto;
+  /* width: 100%; */
+  display: inline;
+  text-align: center;
+  color: #66fcf1 !important;
+  font-size: 48px;
+  margin: 2rem 0;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #66fcf1 !important;
+}
+
+.person {
+  margin-bottom: 30px;
+  display: flex;
+  padding: 2rem;
+  background-color: #66fcf1 !important;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.person * {
+  background-color: #66fcf1 !important;
+}
+
+.person .name {
+  color: #0b0c10 !important;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.content {
+  width: 60% !important;
+}
+
+.person .image {
+  width: 40% !important;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 40%;
+  height: 0;
+  position: relative;
+}
+
+.person .body {
+  color: #1f2833 !important;
+  font-size: 22px;
+}
+
+.person img {
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5%;
+  width: 90%;
+  height: 90%;
+  /* height: 250px; */
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.hero {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5rem 0; */
+}
+
+.hero div {
+  width: 50%;
+}
+
+.hero img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero-content {
+  padding: 0 10rem 0 5rem;
+}
+
+.hero-text {
+  color: #66fcf1 !important;
+  text-align: left;
+  margin: 2rem 0;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.hero-body {
+  color: white !important;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+}
